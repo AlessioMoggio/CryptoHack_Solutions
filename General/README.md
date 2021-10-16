@@ -42,3 +42,12 @@ Doing a loop we can look for the right combination computing XOR between the str
 ### You either know, XOR you don't
 
 Knowing the flag format we can compute XOR between the raw flag and the known part of the flag encoded.
+
+## Mathematics
+
+### Greatest Common Divisor
+
+The python library Math has the function `gcd()` to compute it.
+
+### Extended GCD
+
