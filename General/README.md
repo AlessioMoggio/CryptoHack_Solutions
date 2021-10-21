@@ -83,7 +83,17 @@ Substituting the values found in the previously equation:
         = (-71)*265 + 84*224 = (-71)*265 + (84)*(754 + (-2)*265) =
         = (84)*754 + (-239)*265 = (84)*754 + (-239)*(2527 + (-3)*754) =
         = (-239)*2527 + (801)*754 = (-239)*2527 + (801)*(3281 + (-1)*2527) =
-        = (801)*3281 + (-1040)*2527 = (801)*3281 + (-1040)*(5808 + (-1)*3281) = 
+        = (801)*3281 + (-1040)*2527 = (801)*3281 + (-1040)*(5808 + (-1)*3281) =
         = (-1040)*5808 + (1841)*3281 = (-1040)*5808 + (1841)*(26513 + (-4)*5808) =
         = (1841)*26513 + (-8404)*5808 = (1841)*26513 + (-8404)*(32321 + (-1)*26513) =
         = (-8404)*32321 + (10245)*26513
+
+### Modular Arithmetics 1
+
+Computing the minimum between the module of the two equations I find the solution.
+
+### Modular Arithmetic 2
+
+The solution is 1 due to the little Fermat's theorem:
+
+If p is a prime and m is any integer not divisible by p, then m<sup>(p-1)</sup>-1 is divisible by p.
