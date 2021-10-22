@@ -101,3 +101,7 @@ If p is a prime and m is any integer not divisible by p, then m<sup>(p-1)</sup>-
 ### Modular Inverting
 
 Importing Crypto the `inverse()` function can compute the inverse module to get the solution.
+
+### Quadratic Residues
+
+To find the only quadratic residues in ints list I have to loop for each value in the module range to check if the power computation gets the result.
